@@ -3,8 +3,8 @@ import sys
 
 import structlog
 
-from aiogram_bot_template import models
-from aiogram_bot_template.data import config
+import models
+from data import config
 
 
 def setup_logger() -> structlog.typing.FilteringBoundLogger:
